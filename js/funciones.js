@@ -66,3 +66,5 @@ $(function() {
 function popbox3() {
     $('#overbox3').toggle();
 }
+
+$("#demo").carousel({interval: 4000, pause: "hover"});

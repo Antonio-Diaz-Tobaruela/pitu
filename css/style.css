@@ -6,6 +6,7 @@ h1, h2, h3, h4, h5{font-family:'Cinzel', serif !important;}
 /*.img-home{height: 900px; overflow: hidden;}*/
 .img-index{width: 100%; height: auto; }
 .enunalinea{display:flex; flex-direction: row !important;}
+.enunalinea a{transition: all .5s;}
 .categorias-index{position: relative; margin-top: -5%;z-index: 2;}
 .sombra{box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);}
 .scroll-top { position: fixed; right: 20px; bottom: 40px; display:none; 
@@ -23,6 +24,14 @@ a:hover .scroll-top .fa-arrow-up i:before{border-bottom:none !important; color:b
 .btncerrar a:hover i{color:red;}
 #infobox3 p a{text-decoration:underline;color:#FFF;transition:all 1s;font-size:14px;}
 #infobox3 p a:hover{color:red;}
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+  }
+.carousel-caption{ width: 50%; left: 50%; bottom: 200px;}  
+/*.carousel-caption{position: absolute; top: 0px; left: 60%; width: 50%; bottom: 0;background-color: rgba(0,0,0,0.6);-webkit-transform: skew(-10deg);-moz-transform: skew(-10deg); -o-transform: skew(-10deg);}
+.carousel-caption:before{content:''; position: absolute;}
+.intcarousel{position: relative ; border: 1px solid red; height: 300px; margin-top:10%; left: 5%; text-align: left; width: 60%;}	*/
 @media screen and (min-width:1366px) and (max-width:1580px){
 
 }

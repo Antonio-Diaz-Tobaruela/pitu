@@ -39,10 +39,9 @@
   </div>
   <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
       <ul class="navbar-nav ml-auto enunalinea">
-        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-facebook-f"></i></span></a></li>
-        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-twitter"></i></span></a></li>
-        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-youtube"></i></span></a></li>
-        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-linkedin-in"></i></span></a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fas fa-globe"></i> ES</a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fas fa-globe"></i> EN</a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-linkedin"></i></a></li>
       </ul>
     </div>
 </nav>

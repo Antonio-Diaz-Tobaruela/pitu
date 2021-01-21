@@ -9,7 +9,7 @@ include 'head.php';
     <?php
     include('includes/loader.html');   
     include('includes/cabecera.php');   
-    include('includes/img-home.html');   
+    include('includes/slider-index.html');   
     include('includes/cuerpo-index.html');  
     include('includes/footer.html');    
     include('includes/top.html'); 
