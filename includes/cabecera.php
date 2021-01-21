@@ -16,8 +16,16 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Industries</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Our Services</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Services</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#"><i class="fas fa-ship"></i> Ports and Shipping</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-plane"></i> Airports & Air transport</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-train"></i> Railways</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-plus-square"></i> Highways</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-warehouse"></i> Logistics and Supply Chain</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-university"></i> Public Sector</a>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">References</a>

@@ -4,6 +4,13 @@
 
 <script src="<?php echo HTTP_SERVER ?>js/jquery.min-11.js" type="text/javascript"></script>
 <script src="<?php echo HTTP_SERVER ?>js/bootstrap.bundle.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="<?php echo HTTP_SERVER ?>css/owl.carousel.min.css" media="none" onload="if (media != 'all') media = 'all'">
+<link rel="stylesheet" href="<?php echo HTTP_SERVER ?>css/owl.theme.default.min.css" media="none" onload="if (media != 'all') media = 'all'">
+
+<script src="<?php echo HTTP_SERVER ?>js/owl.carousel.js" type="text/javascript"></script>
+<script src="<?php echo HTTP_SERVER ?>js/lazysizes.min.js" type="text/javascript"></script>
+
 <script src="<?php echo HTTP_SERVER ?>js/funciones.js" type="text/javascript"></script>
 <script defer type="text/javascript">
     WebFontConfig = {

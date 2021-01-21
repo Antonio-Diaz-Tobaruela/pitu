@@ -67,4 +67,31 @@ function popbox3() {
     $('#overbox3').toggle();
 }
 
-$("#demo").carousel({interval: 4000, pause: "hover"});
+$("#demo").carousel({
+    interval: 4000, 
+    //pause: "hover"
+});
+
+$('.owl-carousel').owlCarousel({
+    margin:10,
+    responsiveClass:true,
+    autoplay:true,
+    loop:true,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false,
+            autoplayTimeout:4000
+        },
+        900:{
+            items:2,
+            nav:false
+        },
+        1280:{
+            items:3,
+            nav:true,
+            loop:true
+        }
+    }
+})
